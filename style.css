@@ -1,0 +1,87 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #F7F9FC;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: normal;
+}
+
+h1, h3 {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: #E88D67;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #70A0AF;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0px, 10px, 30px rgba(0,0,0,0.1);
+  margin: 20px 0px;
+  padding: 5px;
+}
+
+.inline-list > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+ul {
+  padding: 20px;
+  list-style: none;
+}
+
+img {
+  width: 150px;
+  height: 150px
+
+}
+
+.image-circle {
+  border-radius: 50%;
+}
+
+.fab {
+  font-size: 40px;
+}
+
+
+
+
